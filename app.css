@@ -1,0 +1,47 @@
+/*OTHER DEVICES*/
+@media screen and (max-width: 768px) {
+
+	#navBarBlock {
+		align-items: center;
+		text-align: center;
+	}
+}
+
+/*CONTENT*/
+body{
+    background: linear-gradient(31deg, rgba(2,0,36,1) 0%, rgba(132,132,201,1) 0%, rgba(0,255,209,1) 100%);
+	font-family: sans-serif;
+    color: white;
+	height: 100vh;
+}
+
+.location,
+.temperature{
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature{
+    flex-direction: column;
+}
+
+.degree-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2{
+    font-size: 40px;
+}
+
+.icon{
+    margin: 40px;
+}
